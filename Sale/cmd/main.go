@@ -23,5 +23,5 @@ func main() {
 	}
 	log.Println("Connect")
 	defer db.Close()
-    handles.Router(db)
+    handle.Router(db)
 }
