@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
     _ "github.com/lib/pq"
-	"github.com/karnsl/exercise/gopark/service/v1/handler"
+	github.com/chayupon/Exercise/Sale/service/v1/handles
 )
 func main() {
 //connect database
