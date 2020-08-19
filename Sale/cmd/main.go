@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
     _ "github.com/lib/pq"
-	"github.com/karnsl/exercise/gopark/service/v1/handler"
+	"github.com/chayupon/Exercise/Sale/service/v1/handle"
 )
 func main() {
 //connect database
@@ -23,5 +23,5 @@ func main() {
 	}
 	log.Println("Connect")
 	defer db.Close()
-    handler.Router(db)
+    handles.Router(db)
 }

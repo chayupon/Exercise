@@ -3,7 +3,7 @@ package handles
 import (
 	"database/sql"
 	
-	"github.com/chayupon/test/Sale/service/v1/register"
+	"github.com/chayupon/Exercise/Sale/service/v1/register"
 	"github.com/gin-gonic/gin"
 )
 // Router app
